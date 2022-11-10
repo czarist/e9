@@ -85,7 +85,7 @@
 							<a class="mb-0" href="#SAIBAMAIS">SAIBA MAIS</a>
 						</li>
 						<li class="mr-5 d-none d-xl-block">
-							<a class="mb-0" href="https://e9.rapidoc.tech/">LOGIN</a>
+							<a class="mb-0" href="<?php echo home_url(); ?>/login">LOGIN</a>
 						</li>
 					</ul>
 				</nav>
@@ -108,7 +108,7 @@
 						<a class="text-left" href="#SAIBAMAIS">SAIBA MAIS</a>
 					</li>
 					<li class="mb-3 d-flex">
-						<a class="text-left" href="https://e9.rapidoc.tech/">LOGIN</a>
+						<a class="text-left" href="<?php echo home_url(); ?>/login">LOGIN</a>
 					</li>
 					<li class="mb-3 d-flex w-100 justify-content-center">
 						<p id="logo" class="h1" itemscope itemtype="https://schema.org/Organization">
