@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-24 23:06:22+0000\n"
+"PO-Revision-Date: 2022-10-26 22:38:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,26 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Akismet Spam Protection - Stable (latest release)\n"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:282
+msgid "Upgrade to %s"
+msgstr "Fazer upgrade para %s"
+
+#: views/notice.php:238 views/notice.php:246 views/notice.php:254
+#: views/notice.php:263
+msgid "Learn more about usage limits."
+msgstr "Ver mais sobre utilização de limites."
+
+#: views/notice.php:217
+msgid "Your account has been restricted"
+msgstr "Sua conta foi restringida "
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:128
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Digite uma nova chave ou <a href=\"%s\" target=\"_blank\">entre em contato com o suporte Akismet</a>."
 
 #. translators: The placeholder is for showing how much of the process has
 #. completed, as a percent. e.g., "Checking for Spam (40%)"
@@ -53,6 +73,10 @@ msgstr "Configure sua conta Akismet para ativar o filtro contra spam neste site.
 #: class.akismet-admin.php:1146
 msgid "Akismet could not recheck your comments for spam."
 msgstr "A Akismet não foi possível reavaliar seus comentários por spam."
+
+#: class.akismet-admin.php:439
+msgid "You don&#8217;t have permission to do that."
+msgstr "Você não tem permissão para fazer isso."
 
 #: class.akismet-cli.php:165
 msgid "Stats response could not be decoded."
@@ -325,6 +349,11 @@ msgid "To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an 
 msgstr "Para continuar seu serviço, <a href=\"%s\" target=\"_blank\">faça upgrade para uma assinatura Enterprise</a>, que cobre um número ilimitado de sites."
 
 #. translators: The placeholder is a URL.
+#: views/notice.php:175
+msgid "Your Plus subscription allows the use of Akismet on only one site. Please <a href=\"%s\" target=\"_blank\">purchase additional Plus subscriptions</a> or upgrade to an Enterprise subscription that allows the use of Akismet on unlimited sites."
+msgstr "Sua assinatura Plus permite o uso do Akismet em apenas um site. <a href=\"%s\" target=\"_blank\">Adquira assinaturas Plus adicionais</a> ou atualize para uma assinatura Enterprise que permite o uso do Akismet em sites ilimitados."
+
+#. translators: The placeholder is a URL.
 #: views/notice.php:151
 msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
 msgstr "A conexão ao akismet.com não pôde ser estabelecida. Consulte <a href=\"%s\" target=\"_blank\">nosso guia sobre firewalls</a> e verifique as configurações do seu servidor."
@@ -410,6 +439,14 @@ msgstr "Sua assinatura para %s está suspensa."
 #: views/connect-jp.php:36
 msgid "Your subscription for %s is cancelled."
 msgstr "Sua assinatura para %s está cancelada."
+
+#: views/notice.php:191
+msgid "You&#8217;re using Akismet on far too many sites for your Plus subscription."
+msgstr "Você está usando o Askimet em sites demais para sua assinatura Plus."
+
+#: views/notice.php:168
+msgid "You&#8217;re using your Akismet key on more sites than your Plus subscription allows."
+msgstr "Você está usando sua chave do Akismet em mais sites do que sua assinatura Plus permite."
 
 #: views/notice.php:117
 msgid "The key you entered is invalid. Please double-check it."
